@@ -40,7 +40,6 @@ LANGUAGES = {
     "kn": "ಕನ್ನಡ (Kannada)",
 }
 
-# Full language name used inside the prompt sent to Gemini
 LANGUAGE_NAME_FOR_PROMPT = {
     "en": "English",
     "hi": "Hindi",
@@ -53,7 +52,7 @@ UI_TEXT = {
     "en": {
         "title": "🔧 FixPilot",
         "caption": "Guiding users through repairs",
-        "language_label": "🌐 Choose your language",
+        "language_label": "Choose your language",
         "vehicle_header": "Your vehicle",
         "type_label": "Type",
         "type_options": ["Car", "Motorcycle/Bike"],
@@ -66,11 +65,11 @@ UI_TEXT = {
         "mileage_label": "Mileage/Odometer",
         "mileage_placeholder": "e.g. 45000 km",
         "currency_label": "Currency for cost estimates",
-        "clear_button": "🗑️ Clear conversation",
+        "clear_button": "Clear conversation",
         "vehicle_disclaimer": "⚠️ This tool gives general guidance only and is not a substitute for a hands-on inspection by a certified mechanic, especially for brakes, steering, airbags, or fuel-system issues.",
-        "tab_diagnose": "🩺 Diagnose an issue",
-        "tab_maintenance": "🛠️ Preventive maintenance",
-        "tab_about": "ℹ️ About / Disclaimer",
+        "tab_diagnose": "Diagnose an issue",
+        "tab_maintenance": "Preventive maintenance",
+        "tab_about": "About / Disclaimer",
         "chat_placeholder": "Describe the problem (e.g. 'grinding noise when I brake')",
         "maintenance_header": "Get a preventive maintenance checklist",
         "maintenance_desc": "Uses the vehicle details entered above. Fill those in first for a tailored checklist.",
@@ -92,7 +91,7 @@ UI_TEXT = {
         "session_started": "Session started",
     },
     "hi": {
-        "title": "🔧 एआई व्हीकल असिस्टेंट",
+        "title": "🔧 व्हीकल असिस्टेंट",
         "caption": "समस्या का वर्णन करें और सरल भाषा में निदान, DIY चरण, और लागत अनुमान प्राप्त करें।",
         "language_label": "🌐 अपनी भाषा चुनें",
         "vehicle_header": "आपका वाहन",
@@ -132,7 +131,7 @@ UI_TEXT = {
         "session_started": "सत्र प्रारंभ",
     },
     "te": {
-        "title": "🔧 AI వాహన సహాయకుడు",
+        "title": "🔧 వాహన సహాయకుడు",
         "caption": "సమస్యను వివరించండి మరియు సాధారణ భాషలో నిర్ధారణ, DIY దశలు, ఖర్చు అంచనాలు పొందండి.",
         "language_label": "🌐 మీ భాషను ఎంచుకోండి",
         "vehicle_header": "మీ వాహనం",
@@ -172,7 +171,7 @@ UI_TEXT = {
         "session_started": "సెషన్ ప్రారంభమైంది",
     },
     "ta": {
-        "title": "🔧 AI வாகன உதவியாளர்",
+        "title": "🔧 வாகன உதவியாளர்",
         "caption": "பிரச்சினையை விவரிக்கவும், எளிய மொழியில் நோய் கண்டறிதல், DIY படிகள், செலவு மதிப்பீடுகளைப் பெறவும்.",
         "language_label": "🌐 உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்",
         "vehicle_header": "உங்கள் வாகனம்",
@@ -214,7 +213,7 @@ UI_TEXT = {
         "session_started": "அமர்வு தொடங்கியது",
     },
     "kn": {
-        "title": "🔧 AI ವಾಹನ ಸಹಾಯಕ",
+        "title": "🔧 ವಾಹನ ಸಹಾಯಕ",
         "caption": "ಸಮಸ್ಯೆಯನ್ನು ವಿವರಿಸಿ ಮತ್ತು ಸರಳ ಭಾಷೆಯಲ್ಲಿ ರೋಗನಿರ್ಣಯ, DIY ಹಂತಗಳು, ವೆಚ್ಚ ಅಂದಾಜುಗಳನ್ನು ಪಡೆಯಿರಿ.",
         "language_label": "🌐 ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ",
         "vehicle_header": "ನಿಮ್ಮ ವಾಹನ",
@@ -247,7 +246,7 @@ UI_TEXT = {
         "about_disclaimer_header": "ಹಕ್ಕುತ್ಯಾಗ",
         "about_disclaimer_body": (
             "ಈ ಸಹಾಯಕವು ನೀವು ಒದಗಿಸಿದ ಮಾಹಿತಿಯ ಆಧಾರದ ಮೇಲೆ ಸಾಮಾನ್ಯ, AI-ರಚಿತ ಮಾರ್ಗದರ್ಶನವನ್ನು ನೀಡುತ್ತದೆ. ಇದು "
-            "ಪ್ರಮಾಣೀಕೃತ ಮೆಕானిక్ **ಅಲ್ಲ** ಮತ್ತು ನಿಮ್ಮ ವಾಹನವನ್ನು ಪ್ರತ್ಯಕ್ಷವಾಗಿ ಪರಿಶೀಲಿಸಲಾಗುವುದಿಲ್ಲ. ಬ್ರೇಕ್, "
+            "ಪ್ರಮಾಣೀಕೃತ ಮೆಕానిక్ **ಅಲ್ಲ** ಮತ್ತು ನಿಮ್ಮ ವಾಹನವನ್ನು ಪ್ರತ್ಯಕ್ಷವಾಗಿ ಪರಿಶೀಲಿಸಲಾಗುವುದಿಲ್ಲ. ಬ್ರೇಕ್, "
             "ಸ್ಟೀಯರಿಂಗ್, ಏರ್‌ಬ್ಯಾಗ್, ಇಂಧನ ವ್ಯವಸ್ಥೆ, ಅಥವಾ ರಚನಾತ್ಮಕ ಸಮಸ್ಯೆಗಳಿಗೆ — ಅಥವಾ ಸಹಾಯಕ 🔴 ಗಂಭೀರ ಎಂದು "
             "ಸೂಚಿಸಿದಾಗ — ವಾಹನ ಚಾಲನೆ ನಿಲ್ಲಿಸಿ, ಅರ್ಹ ವೃತ್ತಿಪರರನ್ನು ಸಂಪರ್ಕಿಸಿ. ವೆಚ್ಚ ಅಂದಾಜುಗಳು ಪ್ರದೇಶ, ವಾಹನ, "
             "ಅಂಗಡಿಯ ಆಧಾರದ ಮೇಲೆ ಬದಲಾಗುತ್ತವೆ."
@@ -472,6 +471,9 @@ if "vehicle" not in st.session_state:
 if "lang" not in st.session_state:
     st.session_state.lang = "en"
 
+if "last_error" not in st.session_state:
+    st.session_state.last_error = None
+
 # --------------------------------------------------------------------------
 # Title (centered) — uses last-selected language, or English on first load
 # --------------------------------------------------------------------------
@@ -479,10 +481,11 @@ T_current = UI_TEXT[st.session_state.lang]
 
 st.markdown(
     f"""
-    <h1 style="text-align: center; width: 100%; display: block; border-bottom: none;">
+    <h1 style="text-align: center; width: 100%; display: block; border-bottom: none;
+               font-size: 3.5rem; margin-bottom: 0.2rem;">
         {T_current['title']}
     </h1>
-    <p style="text-align: center; color: {TEXT_MUTED}; margin-top: -0.5rem;">
+    <p style="text-align: center; color: {TEXT_MUTED}; margin-top: -0.3rem; font-size: 1.1rem;">
         {T_current['caption']}
     </p>
     """,
@@ -499,10 +502,10 @@ with col_b:
         T_current["language_label"],
         list(LANGUAGES.values()),
         index=list(LANGUAGES.keys()).index(st.session_state.lang),
+        key="language_selector",
     )
 st.session_state.lang = lang_display_to_code[selected_display]
-# shorthand for current translation dict, used everywhere below
-T = UI_TEXT[st.session_state.lang]
+T = UI_TEXT[st.session_state.lang]  # shorthand for current translation dict
 
 # --------------------------------------------------------------------------
 # Vehicle details (main page, no sidebar)
@@ -539,6 +542,7 @@ with st.container(border=True):
         st.markdown('<div class="clear-btn-spacer">', unsafe_allow_html=True)
         if st.button(T["clear_button"], use_container_width=True):
             st.session_state.messages = []
+            st.session_state.last_error = None
             st.rerun()
         st.markdown('</div>', unsafe_allow_html=True)
 
@@ -575,7 +579,8 @@ def get_client():
 
 
 def call_gemini(user_parts, base_system_prompt, history=None, max_tokens=None):
-    """Send a message (with optional history) to Gemini and return the text reply."""
+    """Send a message (with optional history) to Gemini and return the text reply.
+    On failure, stores the error in st.session_state.last_error and returns None."""
     client = get_client()
     system_prompt = with_language_instruction(
         base_system_prompt, st.session_state.lang)
@@ -590,7 +595,7 @@ def call_gemini(user_parts, base_system_prompt, history=None, max_tokens=None):
     contents.append(types.Content(role="user", parts=user_parts))
 
     try:
-        with st.spinner("..."):
+        with st.spinner("Thinking..."):
             resp = client.models.generate_content(
                 model=DEFAULT_MODEL,
                 contents=contents,
@@ -600,18 +605,26 @@ def call_gemini(user_parts, base_system_prompt, history=None, max_tokens=None):
                 ),
             )
         text = resp.text
+        if not text:
+            st.session_state.last_error = (
+                "Gemini returned an empty response. This can happen if the request was "
+                "blocked by safety filters, or if the model produced no output. "
+                "Try rephrasing your message."
+            )
+            return None
         try:
             finish_reason = resp.candidates[0].finish_reason
             if str(finish_reason) == "MAX_TOKENS":
                 text += "\n\n*(⚠️ Response was cut off — you can ask me to continue.)*"
         except Exception:
             pass
+        st.session_state.last_error = None
         return text
     except APIError as e:
-        st.error(f"API error: {e}")
+        st.session_state.last_error = f"API error: {e}"
         return None
     except Exception as e:
-        st.error(f"Unexpected error: {e}")
+        st.session_state.last_error = f"Unexpected error: {e}"
         return None
 
 
@@ -628,6 +641,9 @@ with tab_diagnose:
         with st.chat_message(msg["role"]):
             st.markdown(msg["display"])
 
+    if st.session_state.last_error:
+        st.error(st.session_state.last_error)
+
     user_text = st.chat_input(T["chat_placeholder"])
 
     if user_text:
@@ -639,8 +655,6 @@ with tab_diagnose:
             "parts": parts,
             "display": user_text,
         })
-        with st.chat_message("user"):
-            st.markdown(user_text)
 
         reply = call_gemini(
             parts,
@@ -655,9 +669,11 @@ with tab_diagnose:
                 "parts": [reply_part],
                 "display": reply,
             })
-            with st.chat_message("assistant"):
-                st.markdown(reply)
-        st.rerun()
+            st.rerun()
+        else:
+            # Remove the user message we just added so it doesn't get resent on next rerun,
+            # then rerun once to show the error banner above the chat input.
+            st.rerun()
 
 # ---------------- Maintenance tab ----------------
 with tab_maintenance:
@@ -675,6 +691,8 @@ with tab_maintenance:
         )
         if reply:
             st.markdown(reply)
+        elif st.session_state.last_error:
+            st.error(st.session_state.last_error)
 
 # ---------------- About tab ----------------
 with tab_about:
