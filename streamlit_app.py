@@ -624,7 +624,7 @@ def call_gemini(user_parts, base_system_prompt, history=None, max_tokens=None):
         st.session_state.last_error = f"We're experiencing unusually high traffic right now. Please try again after a short while"
         return None
     except Exception as e:
-        st.session_state.last_error = f"Unexpected error: {e}"
+        st.session_state.last_error = f"We're experiencing unusually high traffic right now. Please try again after a short while"
         return None
 
 
